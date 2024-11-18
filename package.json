@@ -1,0 +1,14 @@
+{
+  "name": "gutenberg-accordion",
+  "version": "1.0.0",
+  "description": "Custom Gutenberg Accordion Block",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^24.2.0"
+  }
+}
+

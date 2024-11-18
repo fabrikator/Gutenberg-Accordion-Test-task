@@ -1,0 +1,16 @@
+.accordion-block {
+    border: 1px dashed #ddd;
+    padding: 10px;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.accordion-item-title {
+    background: #e2e2e2;
+    padding: 5px;
+}
+

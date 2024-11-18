@@ -1,0 +1,30 @@
+.accordion-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-item-title {
+  font-size: 1.2em;
+}
+
+.accordion-item-content {
+  padding: 10px;
+
+}
+
+.wp-block-custom-accordion .accordion-item-content {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .accordion-block {
+    width: 100%;
+  }
+}
